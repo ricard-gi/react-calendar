@@ -1,0 +1,57 @@
+
+
+.highlighted-date {
+  background-color: rgb(200,200,200);
+}
+
+
+.el-puto-mapa {
+  height: 500px;
+  pointer-events: auto !important;
+}
+
+.map-container .leaflet-container {
+  z-index: 1;
+}
+
+.cursor-pointer,
+.form-switch {
+    cursor: pointer !important;
+}
+
+.row-inactive {
+    color: red
+}
+
+
+
+.highlighted-date {
+    background-color: rgb(212, 212, 212);
+}
+
+.calendar-row {
+    margin-bottom: 20px;
+}
+.calendar-row .col {
+    text-align: center;
+}
+
+.btn-dies {
+    margin-right: 10px;
+}
+
+
+.calendar-row div.react-calendar {
+    display: inline-block;
+}
+
+div.react-calendar__navigation {
+    height: 30px;
+    margin-bottom: 8px;
+    background-color: gray;
+    
+}
+button:disabled.react-calendar_navigation_label  {
+    color: white;
+    background-color: transparent;
+}
